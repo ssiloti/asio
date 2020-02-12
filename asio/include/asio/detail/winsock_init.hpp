@@ -31,8 +31,8 @@ protected:
   // to ensure that the values are zero-initialised prior to any code being run.
   struct data
   {
-    long init_count_;
-    long result_;
+    LONG init_count_;
+    LONG result_;
   };
 
   ASIO_DECL static void startup(data& d,
